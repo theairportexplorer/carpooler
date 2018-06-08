@@ -1,0 +1,6 @@
+pyyaml
+tinydb
+fire
+matplotlib
+flask
+ujson
