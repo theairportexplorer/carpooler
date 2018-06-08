@@ -10,7 +10,7 @@ from tinydb.operations import (
 from attendees import (
     Driver,
     Rider)
-    
+
 
 def WARNING(msg: str):
     print("[WARNING]: {}".format(msg))
@@ -41,7 +41,7 @@ class CarpoolUsers:
     def __enter__(self):
         return self
 
-    def __exit__(self):
+    def __exit__(self, exc_type, exc_value, traceback):
         self.close()
 
     def close(self):
