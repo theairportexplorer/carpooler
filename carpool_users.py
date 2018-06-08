@@ -10,8 +10,7 @@ from tinydb.operations import (
 from attendees import (
     Driver,
     Rider)
-
-# testing to see if commits work here
+    
 
 def WARNING(msg: str):
     print("[WARNING]: {}".format(msg))
